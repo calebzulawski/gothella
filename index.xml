@@ -36,9 +36,10 @@ Cras id felis massa. Etiam sit amet lacus nec nulla rutrum suscipit maximus sed 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://calebzulawski.github.io/gothella/markdown/</guid>
-      <description>Some examples of how markdown is rendered.
+      <description>The following are some examples of how markdown is rendered with Gothella.
 Headers The various headers:
-Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 Code Blocks fn main() { println!(&amp;#34;Hello from Rust!&amp;#34;); } s = &amp;#34;Hello from Python!&amp;#34; print(s) Hello from a preformatted block! And some inline code!
+Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 Links Here is a link!
+Code Blocks fn main() { println!(&amp;#34;Hello from Rust!&amp;#34;); } s = &amp;#34;Hello from Python!&amp;#34; print(s) Hello from a preformatted block! And some inline code!
 Tables    Item Type Price     Banana Fruit $1   Hamburger Sandwich $12   Celery Vegetable $100    </description>
     </item>
     
