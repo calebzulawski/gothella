@@ -1,14 +1,16 @@
 <div class="nav">
     <div>
-        <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+        <div class="nav-link">
+            <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+        </div>
         <hr>
         {{ with .Site.Params.subtitle }}
         <div class="nav-subtitle">{{ . }}</div>
         {{ end }}
-        <ul class=".nav-links">
-        {{ range .Site.Menus.main }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
+        <ul>
+            {{ range .Site.Menus.main }}
+            <li class="nav-link nav-link-underline"><a href="{{ .URL }}" class="nav-link nav-link-underline">{{ .Name }}</a></li>
+            {{ end }}
         </ul>
     </div>
 </div>

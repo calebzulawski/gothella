@@ -4,7 +4,7 @@ url: "/markdown"
 menu: "main"
 ---
 
-Some examples of how markdown is rendered.
+The following are some examples of how markdown is rendered with Gothella.
 
 # Headers
 
@@ -16,6 +16,9 @@ The various headers:
 #### Header 4
 ##### Header 5
 ###### Header 6
+
+# Links
+Here is a [link](#)!
 
 # Code Blocks
 
