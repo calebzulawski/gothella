@@ -1,0 +1,14 @@
+<div class="nav">
+    <div>
+        <div class="nav-title"><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></div>
+        <hr>
+        {{ with .Site.Params.subtitle }}
+        <div class="nav-subtitle">{{ . }}</div>
+        {{ end }}
+        <ul class=".nav-links">
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html lang="{{ .Site.Language.Lang }}">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:wght@900">
+
+</head>
+
+<body>
+    {{ partial "menu.html" . }}
+</body>
+
+</html>

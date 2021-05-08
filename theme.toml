@@ -1,0 +1,12 @@
+name = "Gothella"
+license = "MIT"
+licenselink = "https://github.com/calebzulawski/gothella/blob/master/LICENSE"
+description = "A minimal, bold theme for Hugo"
+homepage = "https://github.com/calebzulawski/gothella"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Caleb Zulawski"
+  homepage = "https://calebzulawski.com"

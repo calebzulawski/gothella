@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Gothella"
+theme = "gothella"
+
+[params]
+author = "Caleb Zulawski"
+description = "A minimal, bold theme for Hugo"
+subtitle = "A minimal, bold theme for Hugo"
