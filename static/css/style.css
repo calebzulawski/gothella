@@ -110,7 +110,9 @@ a:hover {
     }
 
     .header a {
+        color: white;
         text-decoration: none;
+        border: 0;
     }
 
     .hamburger-slice {
@@ -165,6 +167,7 @@ a:hover {
 /* Code blocks */
 pre {
     padding: 10px;
+    overflow: auto;
 }
 
 code {
