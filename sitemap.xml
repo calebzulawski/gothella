@@ -3,23 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://calebzulawski.github.io/gothella/about/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://calebzulawski.github.io/gothella/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://calebzulawski.github.io/gothella/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/lorem_ipsum/</loc>
+    <loc>https://calebzulawski.github.io/gothella/lorem_ipsum/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://calebzulawski.github.io/gothella/tags/</loc>
   </url>
   
 </urlset>

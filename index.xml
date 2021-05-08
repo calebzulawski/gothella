@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gothella</title>
-    <link>http://example.org/</link>
+    <link>https://calebzulawski.github.io/gothella/</link>
     <description>Recent content on Gothella</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://calebzulawski.github.io/gothella/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>https://calebzulawski.github.io/gothella/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://calebzulawski.github.io/gothella/about/</guid>
       <description>Gothella is a minimal, bold theme for Hugo.
 The theme is designed to be lightweight and responsive.</description>
     </item>
     
     <item>
       <title>Lorem Ipsum</title>
-      <link>http://example.org/lorem_ipsum/</link>
+      <link>https://calebzulawski.github.io/gothella/lorem_ipsum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/lorem_ipsum/</guid>
+      <guid>https://calebzulawski.github.io/gothella/lorem_ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia malesuada sem eget luctus. Vivamus tempor in sapien nec vehicula. Nam pretium mi et ligula porttitor, nec porta turpis eleifend. In porta orci sed suscipit lacinia. Pellentesque sodales tincidunt commodo. In semper purus at est blandit efficitur. Integer convallis iaculis erat, vitae porta nibh dictum in. Curabitur rutrum nibh vitae mauris gravida pretium.
 Cras id felis massa. Etiam sit amet lacus nec nulla rutrum suscipit maximus sed dui.</description>
     </item>
