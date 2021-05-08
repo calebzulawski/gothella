@@ -1,6 +1,6 @@
 <div class="nav">
     <div>
-        <div class="nav-title"><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></div>
+        <div class="nav-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></div>
         <hr>
         {{ with .Site.Params.subtitle }}
         <div class="nav-subtitle">{{ . }}</div>
