@@ -5,5 +5,5 @@ theme = "gothella"
 
 [params]
 author = "Caleb Zulawski"
-description = "A minimal, bold theme for Hugo"
+description = "Gothella is a minimal, bold theme for the Hugo static site generator."
 subtitle = "A minimal, bold theme for Hugo"
