@@ -51,17 +51,11 @@ body {
     padding: 0.5ch;
 }
 
-.nav-title {
+.nav h1 {
     font-family: "Merriweather", serif;
     font-size: 200%;
-    text-align: center;
     color: white;
-}
-
-.nav-title a {
-    color: white;
-    text-decoration: none;
-    border: none !important;
+    margin: 0;
 }
 
 .nav-subtitle {
