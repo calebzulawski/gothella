@@ -2,6 +2,7 @@ baseURL = "https://calebzulawski.github.io/gothella"
 languageCode = "en-us"
 title = "Gothella"
 theme = "gothella"
+enableRobotsTXT = true
 
 [params]
 author = "Caleb Zulawski"
