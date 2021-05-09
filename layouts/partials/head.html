@@ -3,9 +3,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>{{ .Site.Title }}</title>
+    <title>{{ .Site.Title }}{{ if not .Page.IsHome }} | {{ .Page.Name }}{{ end }}</title>
+    {{ if .Page.Description }}
+    <meta name="description" content="{{ .Page.Description }}">
+    {{ else if .Site.Params.description }}
     <meta name="description" content="{{ .Site.Params.description }}">
-    <meta name="author" content="{{ .Site.Params.author }}">
+    {{ end }}
+    {{ with .Site.Params.author }}
+    <meta name="author" content="{{ . }}">
+    {{ end }}
+    {{ if .Page.Keywords }}
+    <meta name="keywords" content="{{ .Page.Keywords }}">
+    {{ else if .Site.Params.keywords }}
+    <meta name="keywords" content="{{ .Site.Params.keywords }}">
+    {{ end }}
 
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Merriweather:wght@900">

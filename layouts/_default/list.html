@@ -1,0 +1,24 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<ul class="posts">
+    {{ range .Data.Pages }}
+    <li>
+        <a href="{{ .Permalink }}">
+            <h3>{{ .Title }}</h3>
+        </a>
+        {{ if .Date }}
+        <div class="small-caps">
+            {{ if .Site.Params.dateFormat }}
+            {{ .Date.Format .Site.Params.dateFormat }}
+            {{ else }}
+            {{ .Date.Format "1 January 1970" }}
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ if .Description }}
+        <p>{{ .Description }}</p>
+        {{ end }}
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

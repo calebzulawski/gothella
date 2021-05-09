@@ -1,6 +1,7 @@
 ---
 title: "Lorem Ipsum"
 url: "/lorem_ipsum"
+date: "1970-01-01"
 menu: "main"
 ---
 

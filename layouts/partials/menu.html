@@ -1,6 +1,9 @@
 <div class="nav">
-    <div>
+    <div class="nav-inner">
         <div class="nav-link">
+            <a href="{{ .Site.BaseURL }}">
+                <img id="logo" src="{{ "logo.png" | relURL }}" />
+            </a>
             <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
         </div>
         <hr>

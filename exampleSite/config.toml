@@ -3,8 +3,11 @@ languageCode = "en-us"
 title = "Gothella"
 theme = "gothella"
 enableRobotsTXT = true
+sectionPagesMenu = "main"
 
 [params]
 author = "Caleb Zulawski"
 description = "Gothella is a minimal, bold theme for the Hugo static site generator."
 subtitle = "A minimal, bold theme for Hugo"
+dateFormat = "January 2, 2006"
+keywords = "Hugo, theme, minimal"

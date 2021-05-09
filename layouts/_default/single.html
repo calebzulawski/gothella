@@ -1,20 +1,18 @@
-<!doctype html>
-
-<html lang="{{ .Site.Language.Lang }}">
-
-{{ partial "head.html" . }}
-
-<body>
-    <div class="content-container">
-        <div class="sidebar">
-        {{ partial "menu.html" . }}
-        </div>
-        {{ partial "header.html" . }}
-        <div class="content">
-            <h1>{{ .Title }}</h1>
-            {{ .Content }}
-        </div>
-    </div>
-</body>
-
-</html>
+{{ define "main" }}
+{{ if not .CurrentSection.IsHome }}
+<div class="small-caps">
+    <a href="{{ .CurrentSection.Permalink | relURL }}">{{ .CurrentSection.Title }}</a> / <a href="{{ .Permalink | relURL }}">{{ .Title }}</a>
+</div>
+{{ end }}
+<h1 class="page-title">{{ .Title }}</h1>
+{{ if .Page.Date }}
+<div class="small-caps">
+    {{ if .Site.Params.dateFormat }}
+    {{ .Date.Format .Site.Params.dateFormat }}
+    {{ else }}
+    {{ .Date.Format "1 January 1970" }}
+    {{ end }}
+</div>
+{{ end }}
+{{ .Content }}
+{{ end }}
