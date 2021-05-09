@@ -6,9 +6,38 @@
     <description>Recent content on Gothella</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://calebzulawski.github.io/gothella/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Second Post</title>
+      <link>https://calebzulawski.github.io/gothella/post/my-second-post/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.github.io/gothella/post/my-second-post/</guid>
+      <description>This is the second post of my blog.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://calebzulawski.github.io/gothella/post/my-first-post/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.github.io/gothella/post/my-first-post/</guid>
+      <description>This is the first post of my blog.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>https://calebzulawski.github.io/gothella/lorem_ipsum/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.github.io/gothella/lorem_ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia malesuada sem eget luctus. Vivamus tempor in sapien nec vehicula. Nam pretium mi et ligula porttitor, nec porta turpis eleifend. In porta orci sed suscipit lacinia. Pellentesque sodales tincidunt commodo. In semper purus at est blandit efficitur. Integer convallis iaculis erat, vitae porta nibh dictum in. Curabitur rutrum nibh vitae mauris gravida pretium.
+Cras id felis massa. Etiam sit amet lacus nec nulla rutrum suscipit maximus sed dui.</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -18,16 +47,6 @@
       <guid>https://calebzulawski.github.io/gothella/about/</guid>
       <description>Gothella is a minimal, bold theme for Hugo.
 The theme is designed to be lightweight and responsive.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>https://calebzulawski.github.io/gothella/lorem_ipsum/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://calebzulawski.github.io/gothella/lorem_ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia malesuada sem eget luctus. Vivamus tempor in sapien nec vehicula. Nam pretium mi et ligula porttitor, nec porta turpis eleifend. In porta orci sed suscipit lacinia. Pellentesque sodales tincidunt commodo. In semper purus at est blandit efficitur. Integer convallis iaculis erat, vitae porta nibh dictum in. Curabitur rutrum nibh vitae mauris gravida pretium.
-Cras id felis massa. Etiam sit amet lacus nec nulla rutrum suscipit maximus sed dui.</description>
     </item>
     
     <item>
