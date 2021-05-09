@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
     height: 100vh;
 
     font-size: 1.25rem;
@@ -102,7 +101,7 @@ a:hover {
     width: 100%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .content-container {
         display: grid;
         grid-template-rows: minmax(5ch, 10%) 1fr;
@@ -145,7 +144,7 @@ a:hover {
     }
 }
 
-@media only screen and not (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     .content-container {
         display: grid;
         grid-template-columns: minmax(40ch, 30%) 1fr;
