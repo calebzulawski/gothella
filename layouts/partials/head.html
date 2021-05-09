@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>{{ .Site.Title }}{{ if not .Page.IsHome }} | {{ .Page.Name }}{{ end }}</title>
+    <title>{{ .Site.Title }}{{ if not .Page.IsHome }} &middot {{ .Page.Name }}{{ end }}</title>
     {{ if .Page.Description }}
     <meta name="description" content="{{ .Page.Description }}">
     {{ else if .Site.Params.description }}
