@@ -85,6 +85,17 @@ a:hover {
     color: white;
 }
 
+.social a {
+    border: 0;
+}
+
+.social span {
+    margin: 0.5ch;
+    font-size: 150%;
+    font-family: 'Font Awesome 5 Brands' !important;
+    color: white;
+}
+
 /* Sidebar layout */
 .content-container {
     height: 100%;

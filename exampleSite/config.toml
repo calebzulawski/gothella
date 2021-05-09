@@ -11,3 +11,15 @@ description = "Gothella is a minimal, bold theme for the Hugo static site genera
 subtitle = "A minimal, bold theme for Hugo"
 dateFormat = "January 2, 2006"
 keywords = "Hugo, theme, minimal"
+
+[[params.social]]
+icon = "github"
+url = "https://github.com"
+
+[[params.social]]
+icon = "twitter"
+url = "https://twitter.com"
+
+[[params.social]]
+icon = "facebook"
+url = "https://facebook.com"

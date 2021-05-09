@@ -15,5 +15,10 @@
             <li class="nav-link nav-link-underline"><a href="{{ .URL }}" class="nav-link nav-link-underline">{{ .Name }}</a></li>
             {{ end }}
         </ul>
+        <div class="social">
+            {{ range .Site.Params.social }}
+            <a href="{{ .url }}"><span class="social fab fa-{{ .icon  }}"></span></a>
+            {{ end }}
+        </div>
     </div>
 </div>
